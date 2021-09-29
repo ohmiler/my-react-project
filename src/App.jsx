@@ -10,6 +10,7 @@ function App() {
       <h1>Hello React + Vite</h1>
       <p>{count}</p>
       <button onClick={() => setCount(count + 1)}>Increase</button>
+      <button onClick={() => setCount(count - 1)}>Decrease</button>
     </div>
   )
 }
